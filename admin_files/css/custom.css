@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	border: 1px solid #06C;
+	background: #06C ;
+	color: #FFF;
+}
+
+.ui-widget-header {
+	border: 1px solid #474CB1;
+	background: #2851F6 url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;
+	color: #fff;
+	font-weight: bold;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border: 1px solid #5087FB;
+	background: #fff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #070796;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover{
+	border: 1px solid #5087FB;
+	background: #fff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #070796;
+}
+
+.new{
+	border-left:5px solid red;
+}
+
